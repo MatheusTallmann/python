@@ -1,3 +1,5 @@
+import math
+
 # 1 - Faça um algoritmo que leia os valores de A, B, C e em seguida imprima na tela a soma entre A e B é mostre se a soma é menor que C.
 def Exercicio1():
   valorA = int(input("Digite um valor para A: "))
@@ -42,6 +44,20 @@ def Exercicio3():
     c = a*b
     print(f"Multiplicação de A com B gera C({c})")
   
+# 4 - Faça um algoritmo que receba um número inteiro e imprima na tela o seu antecessor e o seu sucessor.
+def Exercicio4():
+  numero = int(input("Informe um número inteiro: "))
+
+  print(f"Antecessor de {numero} é {numero-1}!")
+  print(f"Sucessor de {numero} é {numero+1}!")
 
 
-Exercicio3()
+# 5 - Faça um algoritmo que leia o valor do salário mínimo e o valor do salário de um usuário, 
+# calcule quantos salários mínimos esse usuário ganha e imprima na tela o resultado. 
+# (Base para o Salário mínimo R$ 1.518,00).
+def Exercicio5():
+  salario = float(input("Informe seu salário: "))
+  print(f"Você recebe {int(salario / 1518)} salário(s) mínimo(s)!") 
+  print(f"Equivalente a {salario / 1518:.2%} do salário mínimo!")
+
+Exercicio5()
