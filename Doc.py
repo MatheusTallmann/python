@@ -15,7 +15,7 @@ Este arquivo contém exemplos e explicações sobre:
 # As variáveis armazenam valores e podem ser de diferentes tipos
 
 # Exemplo de variáveis
-nome = "João"  # String
+nome = "Matheus"  # String
 idade = 30      # Inteiro
 altura = 1.75   # Float
 ativo = True    # Booleano
